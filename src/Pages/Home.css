@@ -1,0 +1,43 @@
+.accordion {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.accordionHeading {
+    background-color: #3f475d;
+    padding: 14px 0;
+    color: white;
+}
+
+.accordionHeading .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.accordionHeading p {
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+
+.accordionHeading span {
+    cursor: pointer;
+}
+
+.accordationContent {
+    background: #ddd0bf;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.accordationContent.show {
+    height: 180px;
+    opacity: 1;
+}
+
+.accordationContent p {
+    font-size: 15px;
+    line-height: 1.6;
+}
